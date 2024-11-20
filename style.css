@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.Container{
+width:700px;
+margin-top: 24px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 24px;
+background-color: #fff;
+padding:1rem;
+border-radius: 0.5rem;
+
+   
+}
+
+.recipe-box{
+background-color: #fff;
+padding:1rem;
+}
+
+.recipe-box img{
+    border-radius: 0.5rem;
+    width:100%;
+   
+}
+
+.recipe-box h1{
+    color:black;
+    margin: 1rem 0;
+    font-size: 2rem;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.recipe-box p{
+    font-size: 1.1rem;
+    color: rgb(71, 66, 66);
+   
+}
+
+.preparation{
+margin:  0 1rem;
+padding: 1rem 1.5rem;
+background-color: #F3E6D6;
+border-radius: 0.5rem;
+}
+
+.preparation h3{
+    color:#701748;
+    margin: 1rem 0;
+    
+    }
+
+ .preparation li{
+    margin: 1rem 2rem;
+    color: rgb(73, 64, 64);
+ }   
+
+ .ingredients{
+    margin: 0 1rem;
+    border-bottom: 1px solid hsl(14, 45%, 86%);
+}
+
+ .ingredients h1{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color:#7E4F40;
+   
+
+ }
+ .ingredients li{
+    margin: 1rem 2rem;
+    color: rgb(73, 64, 64);
+   
+
+    
+ }
+
+ .instructions{
+    margin: 0 1rem;
+ }
+
+ .instructions h1{
+    color:#7E4F40;
+    padding-top: 1.5rem;
+ }
+ 
+ .instructions li{
+    margin: 1rem 2rem;
+    color: rgb(73, 64, 64);
+ }
+
+ .nutrition{
+    margin: 0 1rem;
+ }
+
+.nutrition h1{
+    color:#7E4F40;
+    padding-top: 1.5rem;
+}
+
+.nutrition p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(71, 66, 66);
+}
+
+.nutrition table{
+    width:100%;
+   border-collapse: collapse;
+}
+
+.nutrition td{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid hsl(14, 45%, 86%);
+   
+}
+
+.item-qty{
+    color:#701748;
+
+    }
+
+
